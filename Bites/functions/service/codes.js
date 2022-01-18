@@ -1,0 +1,7 @@
+const SUCCESS = 2000;
+const SERVER_ERROR = 5000;
+const NO_DATA = 4004;
+
+exports.SUCCESS = SUCCESS;
+exports.SERVER_ERROR = SERVER_ERROR;
+exports.NO_DATA = NO_DATA;
