@@ -1,0 +1,16 @@
+{
+  "functions": {
+    "targets": ["service"],
+    "ignore": [],
+    "source": "functions"
+  },
+  "client": {
+    "source": "client/app/out",
+    "scripts": {
+      "packageJson": "cd client && cp client-package.json app/out/",
+      "build": "cd client/app && npm install && npm run build",
+      "preserve": "catalyst run client:build && catalyst run client:packageJson",
+      "predeploy": "catalyst run client:build && catalyst run client:packageJson"
+    }
+  }
+}

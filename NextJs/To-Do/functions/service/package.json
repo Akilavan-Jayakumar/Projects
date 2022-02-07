@@ -1,0 +1,10 @@
+{
+	"name": "service",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "akilavan.j+development@zohotest.com",
+	"dependencies": {
+		"express": "^4.17.2",
+		"zcatalyst-sdk-node": "latest"
+	}
+}
